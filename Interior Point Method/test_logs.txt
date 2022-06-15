@@ -1,0 +1,44 @@
+-----------------Problem 1: Feasible Case-----------------
+optimal value by my solver: -136.000000
+
+Optimal solution found.
+
+optimal value by Gurobi: -136.000000
+time cost of my solver: 0.004409
+time cost of gurobi: 0.014904
+-----------------Problem 2: Feasible Case-----------------
+optimal value by my solver: -16.000000
+
+Optimal solution found.
+
+optimal value by Gurobi: -16.000000
+time cost of my solver: 0.001790
+time cost of gurobi: 0.007535
+-----------------Problem 3: Infeasible Case-----------------
+This problem is infeasible!
+optimal value by my solver: 
+
+<a href = "matlab: helpview('optim','lp_no_feas_solution','CSHelpWindow');">No feasible solution found.</a>
+
+Linprog stopped because no point satisfies the constraints.
+
+optimal value by Gurobi: 
+time cost of my solver: 0.003111
+time cost of gurobi: 0.009906
+-----------------Problem 4: Unbounded Case-----------------
+This problem is unbounded!
+optimal value by my solver: -Inf
+
+<a href = "matlab: helpview('optim','lp_unbounded','CSHelpWindow');">Problem is unbounded.</a>
+
+optimal value by Gurobi: 
+time cost of my solver: 0.001144
+time cost of gurobi: 0.007273
+-----------------Problem 5: Random Case-----------------
+optimal value by my solver: 51.604827
+
+Optimal solution found.
+
+optimal value by Gurobi: 51.604834
+time cost of my solver: 0.543906
+time cost of gurobi: 0.114882
