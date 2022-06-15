@@ -1,0 +1,26 @@
+-----------------Problem 1: scrs8-----------------
+optimal value by my solver: 904.296954
+
+Optimal solution found.
+
+optimal value by Gurobi: 904.296954
+time cost of my solver: 0.749300
+time cost of gurobi: 0.014438
+-----------------Problem 2: nug08-----------------
+
+optimal value by my solver: 203.500000
+
+Optimal solution found.
+
+optimal value by Gurobi: 203.500000
+time cost of my solver: 1.801201
+time cost of gurobi: 0.389506
+-----------------Problem 3: e226-----------------
+
+optimal value by my solver: -18.751929
+
+Optimal solution found.
+
+optimal value by Gurobi: -18.751929
+time cost of my solver: 0.100556
+time cost of gurobi: 0.013315

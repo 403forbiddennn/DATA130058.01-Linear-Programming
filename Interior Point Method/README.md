@@ -6,4 +6,5 @@
 + [update_step.m](./update_step.m) implements one iteration of IPM;
 + [practicalinteriormain.m](./practicalinteriormain.m) is the main body of my IPM solver;
 + [test_ipm.m](./test_ipm.m) is the test script of our program, containing five test problems;
-+ [test_logs.txt](./test_logs.txt) is the log of [test_ipm.m](./test_ipm.m) running in my computer (MacOS Monterey M1 Pro).
++ [test_ipm2.m](./test_ipm2.m) is the test script of examples given by the instructor, containing three problems;
++ [test_ipm\_logs.txt](./test_ipm_logs.txt) and [test_ipm2\_logs.txt](./test_ipm2_logs.txt) are the running logs of two scripts on my computer (MacOS Monterey M1 Pro).

@@ -6,13 +6,6 @@ function [x_cur, opt_val] = practicalinteriormain(A, b, c, eta, eps)
     while ~exit_flag
         [x_cur, lambda_cur, s_cur, rb_cur, rc_cur] = update_step(x_cur, ...
             lambda_cur, s_cur, A, b, c, eta);
-%         fprintf('duality gap:%f\n', duality_gap)
-%         if duality_gap > old_duality_gap
-%             x_cur = [];
-%             opt_val = [];
-%             fprintf('This problem is infeasible or unbounded!')
-%             return
-%         end
         if norm(rb_cur) > norm(rb)*1e2
             x_cur = [];
             opt_val = -Inf;

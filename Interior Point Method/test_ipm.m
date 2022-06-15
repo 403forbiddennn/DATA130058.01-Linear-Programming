@@ -1,6 +1,7 @@
 clear
 clc
 warning('off','all')
+diary("test_ipm_logs.txt")
 eta = 0.95; eps = 1e-10;
 %-------------------Problem 1-------------------
 fprintf('-----------------Problem 1: Feasible Case-----------------\n')
@@ -68,7 +69,7 @@ fprintf('time cost of gurobi: %f\n', elapsed_time2)
 
 %-------------------Problem 5-------------------
 fprintf('-----------------Problem 5: Random Case-----------------\n')
-m = 400;
+m = 500;
 n = 200;
 A = rand(m,n);
 x_gen = rand(n,1);
@@ -84,3 +85,5 @@ elapsed_time2 = toc;
 fprintf('optimal value by Gurobi: %f\n', f_val_gurobi)
 fprintf('time cost of my solver: %f\n', elapsed_time1)
 fprintf('time cost of gurobi: %f\n', elapsed_time2)
+
+diary("off")
